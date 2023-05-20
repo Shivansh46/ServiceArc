@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ServiceArc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="script.js"></script>
+  <header>
+    <h1>Service Arc</h1>
+  </header>
+  <div class="button-container">
+    <button>Previous Lane</button>
+    <h2>Area 1</h2>
+    <a href = "nextLane.html"><button>Next Lane</button></a>
+  </div>
+  <div id="main-container">
+    <div id="sidebar">
+      <button onclick="manualControl()">Manual Control</button>
+      <button>AI Control</button>
+      <input id = "tb1" type="text" placeholder="">
+      <input id = "tb2" type="text" placeholder="">
+      <input id = "tb3" type="text" placeholder="">
+      <input id = "tb4" type="text" placeholder="">
+    </div>
+    
+    <div id="video-container">
+      <div class="video-pane1"><video width="300" height="200" autoplay muted><source src = "videos/Lane1-1.mp4" type="video/mp4"></video></div>
+      <div class="traffic-light-panel">
+        <div class="traffic-light">
+          <div class="circle red"></div>
+          <div class="circle yellow"></div>
+          <div class="circle green"></div>
+        </div>
+      </div>
+      <div class="traffic-light-panel2">
+        <div class="traffic-light">
+          <div class="circle red"></div>
+          <div class="circle yellow"></div>
+          <div class="circle green"></div>
+        </div>
+      </div>
+      <div class="traffic-light-panel3">
+        <div class="traffic-light">
+          <div class="circle red"></div>
+          <div class="circle yellow"></div>
+          <div class="circle green"></div>
+        </div>
+      </div>
+      <div class="traffic-light-panel4">
+        <div class="traffic-light">
+          <div class="circle red"></div>
+          <div class="circle yellow"></div>
+          <div class="circle green"></div>
+        </div>
+      </div>
+      <!-- <div class="timer1">
+        <div class="timer-panel"></div>
+
+      </div>
+      <div class="timer2">
+        <div class="timer-panel"></div>
+      </div>
+      <div class="timer3">
+        <div class="timer-panel"></div>
+      </div>
+      <div class="timer4">
+        <div class="timer-panel"></div>
+      </div> -->
+      <div class="video-pane2"><video width="300" height="200" autoplay muted><source src = "videos/Lane2-1.mp4" type="video/mp4"></video></div>
+      <div class="video-pane3"><video width="300" height="200" autoplay muted><source src = "videos/Lane3-1.mp4" type="video/mp4"></video></div>
+      <div class="video-pane4"><video width="300" height="200" autoplay muted><source src = "videos/Lane4-1.mp4" type="video/mp4"></video></div>  
+    </div>
+  </div>
+</body>
+</html>
